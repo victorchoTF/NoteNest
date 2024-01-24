@@ -6,7 +6,6 @@ class TextCell(tk.Text):
         super().__init__(parent, wrap=tk.WORD, height=height, width=width, font=font)
         
         self.bind_events()
-
     
     def bind_events(self) -> None:
         self.bind("<Return>", self.enter_event)
