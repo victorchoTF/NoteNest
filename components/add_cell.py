@@ -9,7 +9,7 @@ class AddCell(tk.Frame):
         "Image"
     )
 
-    def __init__(self, parent: tk.Tk or tk.Frame) -> None: 
+    def __init__(self, parent: tk.Tk | tk.Frame) -> None: 
         super().__init__(parent)
 
         self.buttons: List[tk.Button] = []

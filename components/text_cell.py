@@ -6,7 +6,7 @@ import tkinter as tk
 class TextCell(tk.Frame):
     """Versatile text input and display component for rich text editing with Markdown and HTML support."""
 
-    def __init__(self, parent: tk.Tk or tk.Frame, number_of_lines: int = 1, width: float = 80, font: Tuple[str, int] = ('Helvetica', 15)) -> None:
+    def __init__(self, parent: tk.Tk | tk.Frame, number_of_lines: int = 1, width: float = 80, font: Tuple[str, int] = ('Helvetica', 15)) -> None:
         """Initializes a TextCell instance with the specified parent, initial number of lines, width, and font."""
         
         super().__init__(parent)
